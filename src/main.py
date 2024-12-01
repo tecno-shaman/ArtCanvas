@@ -44,6 +44,7 @@ class ArtCanvas(QMainWindow, Ui_MainWindow):
         self.load_ui()
 
     def load_ui(self):
+        self.setStyleSheet('background-color: rgb(195, 195, 195)')
 
         self.tool_bar()
         self.layers()
